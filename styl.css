@@ -1,0 +1,206 @@
+body{
+    background-color:green ;
+}
+h1{    text-align: center;
+    font-size:2em;
+    color:darkslategray;
+}
+.page {
+    position: relative;
+    width:60% ;
+    height: 90vh;
+    margin:auto ;
+    background-color:greenyellow;
+
+}
+.page > div  {
+    position:absolute;
+    bodrer : solid black 1 px;
+    min-width: 85px;
+    height: 130px;
+    background-color: yellow;
+
+     }
+#start {
+    left: 45%;
+    top : 5%;
+    }
+#start_v {
+    left: 5%;
+    top : 20%;
+}
+#start_p {
+    right: 5%;
+    top :20% ;
+}
+#schet {
+    text-align: center;
+    font-size:2em;
+    width: 160px;
+    height: 30px;
+    left:40%;
+    top : 25%;
+    background-color: #985f0d;
+}
+#hod_v{
+    left :30% ;
+    top:30%;
+    opacity: 0;
+    z-index: 1;
+}
+#hod_p{
+    right: 30% ;
+    top:20%;
+    opacity: 0;
+    z-index: 1;
+}
+#bita_v{
+    left :30% ;
+    bottom: 5%;
+}
+#bita_p{
+    right: 30%;
+    bottom: 5%;
+}
+#baraban {
+    background-color: #F6F6F6;
+    display: flex;
+    flex-flow :row wrap;
+    left : 30%;
+    top : 35% ;
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    z-index: 5;
+    animation-name: wr_barabana;
+    animation-duration: 5s;
+
+}
+
+#baraban div {
+    width: 50%;
+    height: 50%;
+}
+#trump {left : 40%;
+         top : 40% ;
+    z-index: 2;
+    width:175px;
+    height:175px;
+}
+.suit_chirwa {border-radius: 50%;
+    background:url(img/chirwa.png) right bottom no-repeat ;
+
+}
+.suit_kresty {border-top-right-radius: 50%;
+    background:url(img/kresty.png) left bottom no-repeat ;
+
+}
+.suit_pika {border-bottom-left-radius: 50%;
+    background:url(img/pika.png) right top no-repeat ;
+
+}
+.suit_bubna { border-bottom-right-radius: 50%;
+    background:url(img/bubna.png) left top no-repeat ;
+}
+.niwidim {
+    display: none;
+    }
+.wrashaem_baraban {
+    animation-name: wr_barabana;
+    animation-duration: 5s;
+
+    }
+@keyframes wr_barabana {
+    from { transform: rotate(0) ;  }
+    50%{transform: rotate(-720deg) ;}
+    to { transform: rotate(0) scale(.5);  }
+}
+.k_vase {
+    animation-name:karta_vase;
+    animation-duration: .5s;
+}
+.k_pete {
+    animation-name:karta_pete;
+    animation-duration: .5s;
+}
+.vasi_hod {
+     animation-name:vasia_hod;
+     animation-duration: .5s;
+ }
+.peti_hod {
+    animation-name:petia_hod;
+    animation-duration: .5s;
+}
+.vasi_votboy{
+     animation-name:vasia_votboy;
+     animation-duration: .5s;
+ }
+.peti_votboy{
+    animation-name:petia_votboy;
+    animation-duration: .5s;
+}
+@keyframes karta_vase {
+    from{ left:45% ; top:5% ;}
+    to {left: 5% ; top:20%;}
+}
+@keyframes karta_pete {
+    from{ left:45% ; top:5% ;}
+    to {right: 5% ; top:20%;}
+}
+@keyframes vasia_hod {
+    from {left: 5% ; top:20%;}
+    to {left :30% ; top:30%;}
+}
+@keyframes petia_hod {
+    from {right: 5% ; top:20%;}
+    to {right: 30% ; top:20%;}
+}
+@keyframes vasia_votboy {
+    from {left :30% ; top:30%;}
+    to {left :30% ; bottom: 5%;}
+}
+@keyframes petia_votboy {
+    from {right :30% ; top:30%;}
+    to {right :30% ; bottom: 5%;}
+}
+
+
+.kresty6{background:url(img/krest_6.png) no-repeat;}
+.kresty7{background:url(img/krest_7.png) no-repeat;}
+.kresty8{background:url(img/krest_8.png) no-repeat;}
+.kresty9{background:url(img/krest_9.png) no-repeat;}
+.kresty10{background:url(img/krest_10.png) no-repeat;}
+.krestyB{background:url(img/krest_B.png) no-repeat;}
+.krestyD{background:url(img/krest_D.png) no-repeat;}
+.krestyK{background:url(img/krest_K.png) no-repeat;}
+.krestyT{background:url(img/krest_T.png) no-repeat;}
+
+.pik6{background:url(img/pik_6.png) no-repeat;}
+.pik7{background:url(img/pik_7.png) no-repeat;}
+.pik8{background:url(img/pik_8.png) no-repeat;}
+.pik9{background:url(img/pik_9.png) no-repeat;}
+.pik10{background:url(img/pik_10.png) no-repeat;}
+.pikB{background:url(img/pik_B.png) no-repeat;}
+.pikD{background:url(img/pik_D.png) no-repeat;}
+.pikK{background:url(img/pik_K.png) no-repeat;}
+.pikT{background:url(img/pik_T.png) no-repeat;}
+
+.chirwa6{background:url(img/chir_6.png) no-repeat;}
+.chirwa7{background:url(img/chir_7.png) no-repeat;}
+.chirwa8{background:url(img/chir_8.png) no-repeat;}
+.chirwa9{background:url(img/chir_9.png) no-repeat;}
+.chirwa10{background:url(img/chir_10.png) no-repeat;}
+.chirwaB{background:url(img/chir_B.png) no-repeat;}
+.chirwaD{background:url(img/chir_D.png) no-repeat;}
+.chirwaK{background:url(img/chir_K.png) no-repeat;}
+.chirwaT{background:url(img/chir_T.png) no-repeat;}
+
+.bubna6{background:url(img/bubn_6.png) no-repeat;}
+.bubna7{background:url(img/bubn_7.png) no-repeat;}
+.bubna8{background:url(img/bubn_8.png) no-repeat;}
+.bubna9{background:url(img/bubn_9.png) no-repeat;}
+.bubna10{background:url(img/bubn_10.png) no-repeat;}
+.bubnaB{background:url(img/bubn_B.png) no-repeat;}
+.bubnaD{background:url(img/bubn_D.png) no-repeat;}
+.bubnaK{background:url(img/bubn_K.png) no-repeat;}
+.bubnaT{background:url(img/bubn_T.png) no-repeat;}
