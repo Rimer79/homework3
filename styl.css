@@ -105,6 +105,13 @@ h1{    text-align: center;
 .niwidim {
     display: none;
     }
+ 
+.prachem {
+    z-index:0;
+}
+.vidim {
+    z-index: 10;
+}
 .wrashaem_baraban {
     animation-name: wr_barabana;
     animation-duration: 5s;
